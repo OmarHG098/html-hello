@@ -1,0 +1,45 @@
+body {
+	background: gainsboro;
+    
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+div{
+    box-sizing: border-box;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+.post{
+    background: white;
+    margin-top: 20px;
+}
+div .secondWrapper{
+    width: 600px;
+    margin: auto;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.post img{
+    width: 100%;
+}
+div.post .postHeader div:first-child{
+    display: inline-block;
+    width: 80%;   
+}
+
+div.post .postHeader div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: gray;   
+}
+div.post .content{
+    padding: 10px;
+}
